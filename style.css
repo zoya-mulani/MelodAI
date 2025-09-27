@@ -1,0 +1,157 @@
+/* === DARK THEME === */
+body.dark-theme {
+  background: linear-gradient(135deg, #1a1a1a 0%, #121212 100%);
+  color: #e5e5e5;
+}
+
+/* Header */
+body.dark-theme header {
+  background: rgba(18, 18, 18, 0.95);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+body.dark-theme .logo-text {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.dark-theme nav a {
+  color: #bbb;
+}
+body.dark-theme nav a:hover,
+body.dark-theme nav a.active {
+  color: #ff6a00;
+}
+
+/* Search Bar */
+body.dark-theme .search-wrapper {
+  background: #222;
+}
+body.dark-theme .search-input {
+  background: transparent;
+  color: #eee;
+}
+body.dark-theme .search-icon,
+body.dark-theme .close-btn {
+  color: #aaa;
+}
+
+/* Sidebar */
+body.dark-theme .sidebar {
+  background: #181818;
+  color: #eee;
+}
+body.dark-theme .liked-songs .liked-header {
+  background: #202020;
+}
+
+/* Main Section */
+body.dark-theme .main {
+  background: #121212;
+  color: #e5e5e5;
+}
+
+/* Filters */
+body.dark-theme .filters button {
+  background: #222;
+  color: #bbb;
+}
+body.dark-theme .filters button.active,
+body.dark-theme .filters button:hover {
+  background: #ee0979;
+  color: #fff;
+}
+
+/* Song Cards */
+body.dark-theme .card11 {
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+body.dark-theme .card11:hover {
+  background: #252525;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.7);
+}
+body.dark-theme .card11.playing {
+  background: #2a0f1f;
+  box-shadow: 0 6px 14px rgba(238,9,121,0.4);
+}
+body.dark-theme .card11 h3 {
+  color: #fff;
+}
+body.dark-theme .card11 p {
+  color: #aaa;
+}
+
+/* Feature Cards */
+body.dark-theme .card {
+  background: #1b1b1b;
+  border: 1px solid #2b2b2b;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+body.dark-theme .card:hover {
+  background: #242424;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.8);
+}
+body.dark-theme .card i {
+  color: #ff6a00;
+}
+body.dark-theme .card h3 {
+  color: #eee;
+}
+body.dark-theme .card p {
+  color: #aaa;
+}
+
+/* Music Player */
+body.dark-theme .music-player {
+  background: rgba(20, 20, 20, 0.95);
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.7);
+  color: #eee;
+}
+body.dark-theme .player-info h4 {
+  color: #fff;
+}
+body.dark-theme .player-info p {
+  color: #aaa;
+}
+body.dark-theme .player-center button {
+  color: #ddd;
+}
+body.dark-theme .player-center button:hover {
+  color: #ff6a00;
+}
+body.dark-theme #progress {
+  background: #333;
+}
+body.dark-theme #progress::-webkit-slider-thumb {
+  background: #ee0979;
+  border: 2px solid #ff6a00;
+}
+
+/* Volume Control */
+body.dark-theme .volume-control i {
+  color: #ddd;
+}
+body.dark-theme .volume-control i:hover {
+  color: #ff6a00;
+}
+body.dark-theme #volume {
+  background: #333;
+}
+body.dark-theme #volume::-webkit-slider-thumb {
+  background: #ee0979;
+  border: 2px solid #ff6a00;
+}
+
+/* Mini Player */
+body.dark-theme .mini-player {
+  background: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  color: #eee;
+}
+body.dark-theme .mini-controls button {
+  color: #ddd;
+}
+body.dark-theme .mini-controls button:hover {
+  color: #ff6a00;
+}

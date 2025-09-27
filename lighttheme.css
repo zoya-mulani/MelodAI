@@ -1,0 +1,208 @@
+/* === GLOBAL RESETS === */
+body.light-theme {
+  background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+  color: #222;
+}
+
+body.light-theme header {
+  background: rgba(237, 216, 216, 0.95);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+body.light-theme .logo-text {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.light-theme nav a {
+  color: #666;
+}
+body.light-theme nav a:hover,
+body.light-theme nav a.active {
+  color: #ee0979;
+}
+
+/* Search Bar */
+body.light-theme .search-wrapper {
+  background: #f1f1f1;
+}
+body.light-theme .search-input {
+  background: #fff;
+  color: #333;
+}
+body.light-theme .search-icon,
+body.light-theme .close-btn {
+  color: #444;
+}
+
+/* Sidebar */
+body.light-theme .sidebar {
+  background: #eec8c8;
+  border-right: 1px solid #eee;
+}
+body.light-theme .liked-songs .liked-header {
+  background: #eec8c8;
+}
+body.light-theme .liked-podcasts .liked-header {
+  background: #eec8c8;
+}
+
+/* Main Section */
+body.light-theme .main {
+  background: #fafafa;
+  color: #222;
+}
+
+/* Filters */
+body.light-theme .filters button {
+  background: #eee;
+  color: #444;
+}
+body.light-theme .filters button.active,
+body.light-theme .filters button:hover {
+  background: #ee0979;
+  color: #fff;
+}
+
+/* Song cards */
+body.light-theme .card11 {
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+body.light-theme .card11:hover {
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+body.light-theme .card11.playing {
+  background: #ffe9f0;
+  box-shadow: 0 6px 14px rgba(238,9,121,0.3);
+}
+body.light-theme .card11 h3 {
+  color: #222;
+}
+
+body.light-theme .card11 p {
+  color: #666;
+}
+
+/* Feature cards */
+body.light-theme .card {
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+body.light-theme .card:hover {
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+body.light-theme .card i {
+  color: #ee0979;
+}
+
+body.light-theme .card:hover i {
+  color: #ff6a00;
+}
+
+body.light-theme .card h3 {
+  color: #111;
+}
+
+
+body.light-theme .card p {
+  color: #494949;
+}
+
+/* Music Player */
+body.light-theme .music-player {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+  color: #111;
+}
+body.light-theme .player-info h4 {
+  color: #111;
+}
+body.light-theme .player-info p {
+  color: #666;
+}
+body.light-theme .player-center button {
+  color: #444;
+}
+body.light-theme .player-center button:hover {
+  color: #ee0979;
+}
+body.light-theme #progress {
+  background: #ddd;
+}
+body.light-theme #progress::-webkit-slider-thumb {
+  background: #ee0979;
+  border: 2px solid #ff6a00;
+}
+
+/* Volume Control */
+body.light-theme .volume-control i {
+  color: #444;
+}
+body.light-theme .volume-control i:hover {
+  color: #ee0979;
+}
+body.light-theme #volume {
+  background: #ddd;
+}
+body.light-theme #volume::-webkit-slider-thumb {
+  background: #ee0979;
+  border: 2px solid #ff6a00;
+}
+
+/* Mini Player */
+body.light-theme .mini-player {
+  background: #fff;
+  border: 1px solid #eee;
+  color: #222;
+}
+body.light-theme .mini-controls button {
+  color: #444;
+}
+body.light-theme .mini-controls button:hover {
+  color: #ee0979;
+}
+/* === LIGHT THEME FOOTER === */
+body.light-theme .site-footer {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+body.light-theme .footer-left p {
+  color: #555;
+  font-size: 14px;
+}
+
+body.light-theme .logo-text {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+body.light-theme .social-links a {
+  color: #555;
+  margin-left: 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+body.light-theme .social-links a:hover {
+  color: #ff6a00;
+}
